@@ -8,4 +8,24 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
+  <script>
+  
+  function handleKeyUp(event){
+    if(event.code==="ArrowLeft"){
+      if(event.currentTarget.previousURL){
+        //document.getElementById("debugText").innerHTML+="going to"+event.currentTarget.previousURL+"<br/>";
+        window.location.assign(event.currentTarget.previousURL);
+      }
+    }
+    if(event.code==="ArrowRight"){
+      //document.getElementById("debugText").innerHTML+="going to"+event.currentTarget.nextURL+"<br/>";
+      window.location.assign(event.currentTarget.nextURL);
+    }
+  }
+  function setup(previousURL,nextURL){
+    document.previousURL=previousURL;
+    document.nextURL=nextURL;
+    document.addEventListener("keyup",handleKeyUp);
+  }
+  </script>
 </head>

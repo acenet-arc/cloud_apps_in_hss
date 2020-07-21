@@ -2,11 +2,24 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   
   {%- include head.html -%}
-  
-  <body>
+  {% if page.prevslide %}
+    <!--have previous slide! {{page.prevslide}}-->
+    {% assign previousURL= site.url|append: '/slides/'|append: page.prevslide|append: ".html" %}
+  {% else %}
+    {% assign previousURL='' %}
+  {%endif%}
+  {% if page.nextslide %}
+    <!--have previous slide! {{page.prevslide}}-->
+    {% assign nextURL= site.url|append: '/slides/'|append: page.nextslide|append: ".html" %}
+  {% else %}
+    {% assign nextURL='' %}
+  {%endif%}
+  <!--'/'slides'/'page.prevslide'.html'-->
+  <body onload="setup('{{ previousURL }}','{{ nextURL }}')">
     
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
+      <p id="debugText"></p>
         <div class="pageoutline">
           {{ content }}
           {%if page.prevslide %}
