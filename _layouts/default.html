@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   
-  {%- include head.html -%}
+  {% include head.html %}
   
   {% if page.prevslide %}
-    {% assign previousURL= site.url|append: 'slides/'|append: page.prevslide|append: ".html" %}
+    {% assign previousURL= url|append: 'slides/'|append: page.prevslide|append: ".html" %}
   {% else %}
     {% assign previousURL='' %}
   {%endif%}
   {% if page.nextslide %}
-    {% assign nextURL= site.url|append: 'slides/'|append: page.nextslide|append: ".html" %}
+    {% assign nextURL= url|append: 'slides/'|append: page.nextslide|append: ".html" %}
   {% else %}
     {% assign nextURL='' %}
   {%endif%}
@@ -22,6 +22,7 @@
           {{ content }}
           
           begin debug output<br/>
+          page.root={{ page.root }}<br/>
           url={{ url }}<br/>
           site.url={{ site.url }}<br/>
           site.github.hostname={{ site.github.hostname }}<br/>
@@ -30,13 +31,13 @@
           end debug output<br/>
           
           {%if page.prevslide %}
-          <a class="nav-link-prev" href="slides/{{ page.prevslide }}.html">prev</a>
+          <a class="nav-link-prev" href="{{url}}slides/{{ page.prevslide }}.html">prev</a>
           {% else %}
           <div class="nav-link-prev-empty" >prev</div>
           {% endif %}
-          <a class="nav-link-home" href="{{ site.url }}">start</a>
+          <a class="nav-link-home" href="{{ url }}">start</a>
           {%if page.nextslide %}
-          <a class="nav-link-next" href="slides/{{ page.nextslide }}.html">next</a>
+          <a class="nav-link-next" href="{{url}}slides/{{ page.nextslide }}.html">next</a>
           {% else %}
           <div class="nav-link-next-empty" >next</div>
           {% endif %}
