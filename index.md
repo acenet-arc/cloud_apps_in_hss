@@ -5,5 +5,9 @@ prevslide:
 nextslide: goal-of-talk
 ---
 begin debug output<br/>
-{{ site.github.hostname }}
+{% if site.github %}
+<h1>On github</h1>
+{% else %}
+<h1>not on github</h1>
+{% endif %}
 end debug output</br>
