@@ -26,6 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://chrisgeroux.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 repository: cgeroux/cloud_apps_in_hss
+#git_hub_repo: cloud_apps_in_hss
 
 collections:
   slides:
