@@ -3,11 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  {% if site.github %}
-  {% assign url=site.github.url|append: "/" %}
-  {% else %}
-  {% assign url=site.url %}
-  {% endif %}
+  {%- include site_url.html -%}
   
   <link rel="stylesheet" href="{{ "assets/main.css" }}">
   
