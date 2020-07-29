@@ -4,9 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   {% if site.github %}
-  {{ baseurl=git_hub_repo }}
+  {% assign basepath = "get_hub_repo" %}
   {% else %}
-  {{ baseurl='' }}
+  {% assign basepath = "local" %}
   {% endif %}
   
   <link rel="stylesheet" href="{{ "assets/main.css" }}">
