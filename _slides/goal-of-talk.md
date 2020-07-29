@@ -1,7 +1,7 @@
 ---
 layout: slide
 title:  "Goal of Talk"
-prevslide: 
+prevslide: title
 nextslide: what-is-cloud
 ---
 
