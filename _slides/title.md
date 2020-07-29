@@ -2,5 +2,5 @@
 layout: title
 title: Cloud Applications in HSS
 prevslide: 
-nextslide: slide1
+nextslide: goal-of-talk
 ---

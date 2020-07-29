@@ -1,9 +1,18 @@
 @charset "utf-8";
+li{
+  padding: 5px;
+}
 a{
-  font: 16px Arial;
-  color: #000000;
+  color: #4a95b3;
   text-decoration:none;
   font-style: italic;
+}
+.a-footer{
+  color: #000000;
+}
+img{
+  /*box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit*/
+  box-shadow: 3px 3px 10px 2px #999999 ;
 }
 .title{
   font: 24px Arial;
@@ -39,6 +48,7 @@ a{
   top: 30px;
   left: 320px;
   width: 500px;
+  box-shadow: none;
 }
 .footer-left{
   position: absolute;
@@ -49,6 +59,7 @@ a{
   position: absolute;
   top: 540px;
   left: 350px;
+  font: 16px Arial;
 }
 .footer-right{
   position: absolute;
@@ -57,9 +68,11 @@ a{
 }
 .cc-region-partner{
   width:175px;
+  box-shadow:none;
 }
 .ace-net-logo-footer{
   width:150px;
+  box-shadow:none;
 }
 .pageoutline{
   border: 1px solid #888888;
@@ -86,6 +99,11 @@ a{
   position: absolute;
   top: 620px;
   left: 730px;
+}
+.nav-link-home{
+  position: absolute;
+  top: 620px;
+  left: 380px;
 }
 .nav-link-next-empty{
   position: absolute;
