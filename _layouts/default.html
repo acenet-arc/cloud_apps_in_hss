@@ -20,6 +20,11 @@
       <div class="wrapper">
         <div class="pageoutline">
           {{ content }}
+          
+          begin debug output<br/>
+          baseurl={{ baseurl }}<br/>
+          end debug output<br/>
+          
           {%if page.prevslide %}
           <a class="nav-link-prev" href="slides/{{ page.prevslide }}.html">prev</a>
           {% else %}
