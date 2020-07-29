@@ -1,9 +1,10 @@
 ---
 layout: slide
 title:  "Dynamic websites"
-prevslide: website-options
-nextslide: static-sites-overview
+prevslide: archaeology
+nextslide: dynamic-sites-capabilities
 ---
+
 * Often referred to as CMSs (Content Management Systems)
 * Usually written in [PHP](https://www.php.net/) (Hypertext Preprocessor)
   * web-server generates HTML on the fly

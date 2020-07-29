@@ -2,7 +2,7 @@
 layout: slide
 title:  "What can I do with a VM?"
 prevslide: working-with-vms
-nextslide: website-options
+nextslide: atlas-of-traditional-inuit-knowledge
 ---
 * What can I do with a computer?
   * desktop GUI, watch movies, listen to music, browse the web<br/>(possible, but maybe your laptop would be better?)
