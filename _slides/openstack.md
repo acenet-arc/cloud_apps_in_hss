@@ -15,4 +15,4 @@ nextslide: vm-creation
 * Compute Canada clouds use <br/>the [OpenStack.org](https://www.openstack.org/) cloud <br/>operating system
 * Compute Canada clouds are free <br/>for researchers from recognized <br/>Canadian academic institutions
 </div>
-![OpenStack](/assets/arbutus_screens/login.png){:style="width:300px;position:absolute;left:420px;top:30px;"}
+![OpenStack](assets/arbutus_screens/login.png){:style="width:300px;position:absolute;left:420px;top:30px;"}

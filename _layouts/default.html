@@ -4,12 +4,12 @@
   {%- include head.html -%}
   
   {% if page.prevslide %}
-    {% assign previousURL= site.url|append: '/slides/'|append: page.prevslide|append: ".html" %}
+    {% assign previousURL= site.url|append: 'slides/'|append: page.prevslide|append: ".html" %}
   {% else %}
     {% assign previousURL='' %}
   {%endif%}
   {% if page.nextslide %}
-    {% assign nextURL= site.url|append: '/slides/'|append: page.nextslide|append: ".html" %}
+    {% assign nextURL= site.url|append: 'slides/'|append: page.nextslide|append: ".html" %}
   {% else %}
     {% assign nextURL='' %}
   {%endif%}
@@ -21,13 +21,13 @@
         <div class="pageoutline">
           {{ content }}
           {%if page.prevslide %}
-          <a class="nav-link-prev" href="/slides/{{ page.prevslide }}.html">prev</a>
+          <a class="nav-link-prev" href="slides/{{ page.prevslide }}.html">prev</a>
           {% else %}
           <div class="nav-link-prev-empty" >prev</div>
           {% endif %}
           <a class="nav-link-home" href="{{ site.url }}">start</a>
           {%if page.nextslide %}
-          <a class="nav-link-next" href="/slides/{{ page.nextslide }}.html">next</a>
+          <a class="nav-link-next" href="slides/{{ page.nextslide }}.html">next</a>
           {% else %}
           <div class="nav-link-next-empty" >next</div>
           {% endif %}
