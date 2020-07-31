@@ -1,8 +1,8 @@
 ---
 layout: slide
 title:  "What is a Virtual Machine (VM)?"
-prevslide: compute-canada-clouds
-nextslide: openstack
+prevslide: what-is-cloud
+nextslide: cloud-service-levels
 ---
 * A simulated computer
 * Runs on a real physical <br/>computer

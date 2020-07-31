@@ -1,8 +1,8 @@
 ---
 layout: slide
-title:  "Compute Canada Clouds"
+title:  "Compute Canada clouds"
 prevslide: compute-canada-clouds-are-iaas
-nextslide: what-is-a-virtual-machine
+nextslide: openstack
 ---
 
 **Our clouds are IaaS**

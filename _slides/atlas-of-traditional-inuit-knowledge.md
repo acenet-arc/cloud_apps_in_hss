@@ -1,7 +1,7 @@
 ---
 layout: slide
 title:  "Atlas of traditional Inuit knowledge"
-prevslide: what-can-I-do-with-a-vm
+prevslide: what-is-a-web-server
 nextslide: diversitycapebreton
 ---
 * Dr. Claudio Aporta

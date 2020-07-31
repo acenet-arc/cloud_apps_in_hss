@@ -2,7 +2,7 @@
 layout: slide
 title:  "What is a cloud?"
 prevslide: goal-of-talk
-nextslide: cloud-service-levels
+nextslide: what-is-a-virtual-machine
 ---
 * The word *cloud* has many different<br/>meanings
   * Cloud apps: gmail, calendars, <br/>docs etc.
