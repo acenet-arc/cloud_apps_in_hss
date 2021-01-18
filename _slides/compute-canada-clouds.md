@@ -9,23 +9,24 @@ nextslide: openstack
 
 <div markdown="1" style="position:absolute;top:50px;left:0px;width:350px;">
 Arbutus
-* 456 nodes (14,968 cores)
-* 5.7 PB storage
-* 146.9 TB RAM
+* 484 nodes (16,008 cores)
+* 5.3 PB storage
+* 12 PB object/shared filesystem storage
+* 153.5 TB RAM
 
 Cedar
-* 32 nodes (960 cores)
+* 32 nodes (1024 cores)
 * 500 TB storage
-* 7.6 TB RAM
+* 7.5 TB RAM
 </div>
 <div markdown="1" style="position:absolute;top:50px;left:400px;width:300px;">
 East
-* 35 nodes (576 cores)
+* 36 nodes (576 cores)
 * 100 TB storage
-* 4.6 TB RAM
+* 4.5 TB RAM
 
 Graham
 * 24 nodes (768 cores)
 * 84 TB storage
-* 5.6 TB RAM
+* 5.5 TB RAM
 </div>
