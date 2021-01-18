@@ -10,8 +10,7 @@ nextslide: openstack
 <div markdown="1" style="position:absolute;top:50px;left:0px;width:350px;">
 Arbutus
 * 484 nodes (16,008 cores)
-* 5.3 PB storage
-* 12 PB object/shared filesystem storage
+* 5.3 PB + 12 PB storage
 * 153.5 TB RAM
 
 Cedar
